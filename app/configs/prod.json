@@ -2,12 +2,9 @@
 	"GENERAL": {
 		"SERVER_HTTP_PORT": 8080,
 		"SERVER_HTTP_IP": "0.0.0.0",
-		"JWT_SECRET": "js2onsecrete@dsd1$$$@Dsda1dPR0Dsaso###",
+		"JWT_SECRET": "js2onsecreasdte@dsd1$$$@Dsda1dPR0Dsaso###",
 		"JWTEXPIRES_IN": 86400,
-		"WHITELIST": [
-			"https://react-socketio-nodejs-test-chatapp.surge.sh",
-			"http://react-socketio-nodejs-test-chatapp.surge.sh"
-		]
+		"WHITELIST": ["https://privoce-chat.netlify.app"]
 	},
 	"EXPRESS_VALIDATION_MESSAGES": {
 		"NICKNAME_LENGHT_BETWEEN_2_AND_12": "The Nickname must have between 2 and 12 characters",
@@ -22,8 +19,8 @@
 		"LOGFILE": "./logs/prod.log"
 	},
 	"MONGOOSE": {
-		"URL": "mongodb://admin:sRx#<F5f@mongodb/",
-		"DB": "chatappprod"
+		"URL": "mongodb+srv://tuliocll:ZjHVEywPE4ca2Y0U@cluster0.i9pvf.mongodb.net/chat?retryWrites=true&w=majority",
+		"DB": ""
 	},
 	"CRYPTO": {
 		"SECRET": "cryptos3cretpr0ddch4tapp",
