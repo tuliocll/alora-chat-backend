@@ -108,6 +108,7 @@ module.exports = (app) => {
 		});
 
 		socket.on("end", (params) => {
+			console.log("ouvi end", params);
 			global.io.to(params.to).emit("end");
 		});
 
