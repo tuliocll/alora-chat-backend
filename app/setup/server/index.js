@@ -107,6 +107,10 @@ module.exports = (app) => {
 			});
 		});
 
+		socket.on("end", (params) => {
+			global.io.to(params.to).emit("end");
+		});
+
 		socket.once("disconnect", () => {
 			logger.info("SOCKET.IO Server: Client disconnected");
 		});
